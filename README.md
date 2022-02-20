@@ -15,8 +15,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -48,12 +46,21 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-i learned how to center
+i learned ways to center elements:
+
 ```css
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+```
+how to center with flexbox:
+
+```css
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 ```
 
 ### Continued development
@@ -67,8 +74,21 @@ I need to focus on media querries
 
 - (https://stackoverflow.com/questions/46184458/transform-translate-50-50/46184660#:~:text=The%20%2D50%25%20transform%20basically%20means,that%20in%20the%20y%2Daxis.) this taught me how to center elements
 
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 ## Author
 
 - Frontend Mentor - [@Blue-fridge](https://www.frontendmentor.io/profile/Blue-fridge
+
+## Acknowledgments
+
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+@denielden taught me that i could use flexbox to center elements and gave me a link to a guide on flexbox.
+profile: (https://www.frontendmentor.io/profile/denielden)
+
+@jrmydix helped me fix accessibility issue
+profile: (https://www.frontendmentor.io/profile/jrmydix)
+
 
 
